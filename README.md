@@ -4,23 +4,15 @@ RoboMaster2020赛季我参与了英雄视觉代码的编写
 
 文件目录如下:
 
-├── README.md                   // help
-
-├── main.cpp                    //主函数
-
-├── HeroVision                  //常用宏定义
-
-├── CMakeLists.txt
-
-├── include.h					          //常用头文件
-
-├── AutoShot                    //装甲板的识别及自动瞄准
-
-│   ├── include                 //.h文件
-
-│   │   ├── ANN.h				        //神经网络,数字识别相关部分
-
-│   │   ├── Armor.h				      //装甲板的识别,主要包括Mark的匹配算法
+>├── README.md                   // help
+>├── main.cpp                    //主函数
+>├── HeroVision                  //常用宏定义
+>├── CMakeLists.txt
+>├── include.h					          //常用头文件
+>├── AutoShot                    //装甲板的识别及自动瞄准
+>>├── include                 //.h文件
+>>>├── ANN.h				        //神经网络,数字识别相关部分
+>>>├── Armor.h				      //装甲板的识别,主要包括Mark的匹配算法
 
 │   │   ├── Mark.h				      //Mark的识别
 
